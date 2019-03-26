@@ -1,0 +1,25 @@
+.navbar-custom {
+  background-color: #54ab5d;
+  border-color: #54ab5d;
+}
+
+.navbar-custom .navbar-brand {
+  color: #f8f8f8;
+}
+
+.navbar-custom .navbar-nav > li > a {
+  color: #f8f8f8;
+}
+.navbar-custom .navbar-nav > li > a:hover {
+  background-color: #4b9853;
+}
+
+.navbar-custom .navbar-nav > li > a:focus {
+  background-color: #83c686;
+}
+
+.center {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}

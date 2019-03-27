@@ -13,36 +13,72 @@
 
     <link
       rel="stylesheet"
-      href="https://cdn.rtlcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css"
+      integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If"
+      crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="style/landing.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-fixed-top navbar-custom">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">مکتب‌خانه دانشگاه شهید بهشتی</a>
-      </div>
-      <div class="pull-right">
-        <ul class="nav navbar-nav">
-          <li>
-            <a href="#"><span class="glyphicon glyphicon-search"></span></a>
-          </li>
-        </ul>
-      </div>
-      <div class="center">
-        <ul class="nav navbar-nav">
-          <li><a href="#">صفحه اصلی</a></li>
-          <li><a href="#">آموزش</a></li>
-          <li><a href="#">بلاگ</a></li>
-          <li><a href="#">دانلود</a></li>
-          <li><a href="#">همکاری</a></li>
-          <li><a href="#">تماس با ما</a></li>
-          <li><a href="#">درباره ما</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="header">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-custom p-1">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">s</span>
+        </button>
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">مکتب‌خانه دانشگاه شهید بهشتی</a>
+        </div>
+
+        <div class="collapse navbar-collapse center" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mt-2 mt-lg-0 m-r-n-90">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">صفحه اصلی</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">آموزش</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">بلاگ</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">دانلود</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">همکاری</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">تماس با ما</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">درباره ما</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form-inline my-2 my-lg-0">
+            <ul class="nav navbar-nav text-white">
+                <li>
+                  <!-- <a href="#"><span class="glyphicon glyphicon-search"></span></a> -->
+                  s
+                </li>
+              </ul>
+        </form>
+      </nav>
+    </div>
+    <div class="container"></div>
+    <div class="footer"></div>
+    <div class="popup fixed-bottom p-3">
+      <img src="statics/3.png" alt="ticketing"/>
+    </div>
   </body>
 </html>

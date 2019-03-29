@@ -35,7 +35,12 @@
 }
 
 .scrollmenu a:hover {
-    background-color: #777;
+    background-color: green;
+    color: white;
+}
+
+.scrollmenu a {
+    color: grey;
 }
 
 .parallax{
@@ -44,4 +49,19 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.parallax-1{
+  background-image: url("/statics/background-parallax.PNG");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.circle-image{
+    border-radius: 50%;
+    background-color: aquamarine;
+    color:aquamarine;
+    padding: 1px;
 }

@@ -112,6 +112,18 @@
   color: transparent;
 }
 
+.form-label-group input {
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+}
+
+.form-label-group input:focus {
+  border-bottom: 2px solid green;
+  outline: none;
+  box-shadow: none;
+}
+
 .form-label-group input:-ms-input-placeholder {
   color: transparent;
 }

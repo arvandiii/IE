@@ -1,1 +1,47 @@
 @import "global.css";
+
+.search-icon{
+    border: transparent;
+}
+
+.search-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.using-section{
+    min-height: 200px;
+}
+
+.category-nav{
+    overflow:auto;
+    white-space: nowrap;
+}
+
+.category-nav li{
+    display: inline-block;
+}
+
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scrollmenu a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.scrollmenu a:hover {
+    background-color: #777;
+}
+
+.parallax{
+  background-image: url("/statics/background-parallax.PNG");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

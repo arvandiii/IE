@@ -17,14 +17,14 @@
       integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style/login.css" />
+    <link rel="stylesheet" href="style/landing.css" />
     <link
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
-  <body class="bg-light">
+  <body class="bg-gandalf">
     <div class="header">
       <nav class="navbar fixed-top navbar-expand-lg navbar-custom p-1">
         <button
@@ -97,27 +97,158 @@
         </ul>
       </div>
     </div>
-
-    <div class="container main-section bg-white">
-      <div class="row section text-center m-5">
-        <div class="col-md-12">
-          <img src="statics/1.png" style="width: 500px" />
+    <div class="container-fluid p-0 bg-gandalf">
+      <div class="container main-section w-75">
+        <div class="row section text-center m-5">
+          <div class="col-md-12 p-3">
+            <img src="statics/1.png" style="width: 500px" />
+          </div>
+        </div>
+        <form action="/action_page.php">
+          <div class="form-group row m-5 bg-white box-shadow">
+            <div class="col-sm-10">
+              <input class="form-control search-icon" id="inputPassword" placeholder="در میان هزار مطلب جستجو کن">
+            </div>
+            <label for="inputPassword" class="col-sm-2 col-form-label text-right">
+              <i class="fa fa-search text-secondary"></i>
+            </label>
+          </div>
+        </form>
+        <div class="row section text-center mx-5 mb-3">
+          <div class="col-md-6 p-2">
+            <div class="rounded bg-white box-shadow">
+              <img src="statics/2.png" style="width: 200px" />
+            </div>
+          </div>
+          <div class="col-md-6 p-2">
+            <div class="rounded bg-white box-shadow">
+              <img src="statics/2.png" style="width: 200px" />
+            </div>
+          </div>
+          <div class="col-md-4 p-2">
+            <div class="rounded bg-white box-shadow">
+              <img src="statics/2.png" style="width: 200px" />
+            </div>
+          </div>
+          <div class="col-md-4 p-2">
+            <div class="rounded bg-white box-shadow">
+              <img src="statics/2.png" style="width: 200px" />
+            </div>
+          </div>
+          <div class="col-md-4 p-2">
+            <div class="rounded bg-white box-shadow">
+              <img src="statics/2.png" style="width: 200px" />
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row section text-center m-5">
-        <div class="search-container">
-          <form action="/action_page.php">
-            <input type="text" placeholder="Search.." name="search" />
-            <button type="submit"><i class="fa fa-search"></i></button>
-          </form>
+      <div class="row bg-warning using-section text-white parallax">
+        <div class="col-md-12 p-4 text-center">
+          <h2>
+          چرا باید از مکتب‌خانه استفاده کنیم؟
+          </h2>
+        </div>
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-3">
+              <div>
+                <h2>
+                  509
+                </h2>
+              </div>
+              <div>
+              ویدیو آموزشی
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div>
+                <h2>
+                  509
+                </h2>
+              </div>
+              <div>
+              ویدیو آموزشی
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div>
+                <h2>
+                  509
+                </h2>
+              </div>
+              <div>
+              ویدیو آموزشی
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div>
+                <h2>
+                  509
+                </h2>
+              </div>
+              <div>
+              ویدیو آموزشی
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row section text-center m-5">
-        <div class="col-md-6">
-          <img src="statics/2.png" style="width: 300px" />
-        </div>
-        <div class="col-md-6">
-          <img src="statics/2.png" style="width: 300px" />
+      <div class="container w-75">
+        <div class="row m-5">
+          <div class="row w-100 bg-white box-shadow">
+          <div class="scrollmenu">
+  <a href="/">Home</a>
+  <a href="/">News</a>
+  <a href="/">Contact</a>
+</div>
+            <!-- {% comment %} <ul class="nav justify-content-end category-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul> {% endcomment %} -->
+          </div>
         </div>
       </div>
     </div>

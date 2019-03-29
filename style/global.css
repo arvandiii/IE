@@ -73,8 +73,8 @@
 }
 
 :root {
-  --input-padding-x: .75rem;
-  --input-padding-y: .75rem;
+  --input-padding-x: 0.75rem;
+  --input-padding-y: 0.75rem;
 }
 
 .form-signin {
@@ -156,4 +156,20 @@
   padding-bottom: calc(var(--input-padding-y) / 3);
   font-size: 12px;
   color: #777;
+}
+
+.checkbox-round {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 2px solid gray;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-round:checked {
+  background-color: greenyellow;
 }

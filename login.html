@@ -26,7 +26,46 @@
   </head>
   <body class="bg-light">
     <div class="header">
-      <nav class="navbar fixed-top navbar-expand-lg navbar-custom p-1">
+      <nav
+        id="searchNav"
+        class="navbar fixed-top navbar-expand-lg navbar-custom p-1"
+      >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">s</span>
+        </button>
+        <form class="w-100">
+          <div class="form-group m-0">
+            <div class="w-100">
+              <div class="d-inline pull-right p-2 w-85">
+                <span class="fa fa-search text-white"></span>
+                <div class="d-inline">
+                  <input
+                    class="w-85"
+                    style="border: transparent; background: transparent; outline: none; box-shadow: none;"
+                  />
+                </div>
+              </div>
+
+              <div class="d-inline pull-left p-2">
+                <span class="fa fa-times  text-white"></span>
+              </div>
+            </div>
+          </div>
+        </form>
+      </nav>
+
+      <nav
+        id="mainNav"
+        class="navbar fixed-top navbar-expand-lg navbar-custom p-1"
+      >
         <button
           class="navbar-toggler"
           type="button"
@@ -71,7 +110,11 @@
         <form class="form-inline my-2 my-lg-0">
           <ul class="nav navbar-nav text-white">
             <li>
-              <button type="button" class="btn btn-default text-white">
+              <button
+                id="navSearchBtn"
+                type="button"
+                class="btn btn-default text-white"
+              >
                 <span class="fa fa-search"></span>
               </button>
             </li>

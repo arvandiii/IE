@@ -1,4 +1,5 @@
 $("#loginCard").hide();
+$("#searchNav").hide();
 
 $("#changeToLoginBtn").click(function() {
   $("#singupCard").hide();
@@ -59,4 +60,10 @@ $("#inputPass").keyup(function() {
   }else{
     $("#inputPass").addClass("invalid-input");
   }
+});
+
+
+$("#navSearchBtn").click(function() {
+  $("#mainNav").hide();
+  $("#searchNav").show();
 });

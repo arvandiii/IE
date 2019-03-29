@@ -67,3 +67,9 @@ $("#navSearchBtn").click(function() {
   $("#mainNav").hide();
   $("#searchNav").show();
 });
+
+$("#navTimesBtn").click(function() {
+  $("#mainNav").show();
+  $("#searchNav").hide();
+});
+

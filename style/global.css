@@ -124,6 +124,7 @@
   box-shadow: none;
 }
 
+.invalid-input ,
 .form-label-group input:invalid {
   border-bottom: 2px solid red;
   outline: none;

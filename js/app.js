@@ -44,3 +44,7 @@ $("#navBtn4").click(function() {
   $("#subNav").append(`<li class="list-inline-item px-3">سه بعدی و ویدیو</li>`);
   $("#subNav").append(`<li class="list-inline-item px-3">برنامه نویسی</li>`);
 });
+
+$("#inputPass").keyup(function() {
+  $("#inputPass").addClass("invalid-input")
+});

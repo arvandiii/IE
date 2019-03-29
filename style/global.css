@@ -3,6 +3,14 @@
   border-color: #54ab5d;
 }
 
+.bg-gandalf{
+  background-color: whitesmoke;
+}
+
+.max-width-100{
+  max-width: 100px;
+}
+
 .navbar-custom .navbar-brand {
   color: #f8f8f8;
 }

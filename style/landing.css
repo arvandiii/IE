@@ -44,7 +44,7 @@
 }
 
 .parallax{
-  background-image: url("/statics/background-parallax.PNG");
+  background-image: url("/statics/p.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -52,7 +52,7 @@
 }
 
 .parallax-1{
-  background-image: url("/statics/background-parallax.PNG");
+  background-image: url("/statics/p.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

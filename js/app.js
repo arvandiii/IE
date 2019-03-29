@@ -45,6 +45,18 @@ $("#navBtn4").click(function() {
   $("#subNav").append(`<li class="list-inline-item px-3">برنامه نویسی</li>`);
 });
 
+var checkPassword = function(password) {
+  return (
+    password.length >= 8 &&
+    !!password.match(/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d\(\)\^?&]{1,}$/)
+  );
+};
+
 $("#inputPass").keyup(function() {
-  $("#inputPass").addClass("invalid-input")
+  var pass = $("#inputPass").val();
+  if (checkPassword(pass)) {
+    $("#inputPass").removeClass("invalid-input");    
+  }else{
+    $("#inputPass").addClass("invalid-input");
+  }
 });

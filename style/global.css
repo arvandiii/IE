@@ -3,11 +3,11 @@
   border-color: #54ab5d;
 }
 
-.bg-gandalf{
+.bg-gandalf {
   background-color: whitesmoke;
 }
 
-.max-width-100{
+.max-width-100 {
   max-width: 100px;
 }
 
@@ -132,7 +132,7 @@
   box-shadow: none;
 }
 
-.invalid-input ,
+.invalid-input,
 .form-label-group input:invalid {
   border-bottom: 2px solid red;
   outline: none;
@@ -181,4 +181,8 @@
 
 .checkbox-round:checked {
   background-color: greenyellow;
+}
+
+.w-85 {
+  width: 85%;
 }
